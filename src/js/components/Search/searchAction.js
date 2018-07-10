@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export function getDataFromApi(cityName) {
     
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=c4ffef6183d8aa7bdca35e48d737dc78`
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=c4ffef6183d8aa7bdca35e48d737dc78&units=imperial`
     
     return {
     
